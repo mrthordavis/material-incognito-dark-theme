@@ -1,18 +1,19 @@
 {
 	"manifest_version": 2,
 
-	"name": "Material Incognito Dark Theme",
-	"description": "A theme that adds the dark Incognito Mode colour scheme to the normal mode of Chrome.",
+	"name": "Incognitor Coloured Google Logo",
+	"description": "The Incognito Mode Transfered To The Normal Chrome Browser.",
 
-	"version": "5.0.2",
+	"version": "1.0",
 
 	"icons": {
-		"128": "images/icon128.png"
+		"128": "images/incognito.png"
 	},
 
 	"theme": {
 		"images": {
-			"theme_ntp_background": "images/theme_ntp_background.png"
+			"theme_ntp_background": "images/theme_ntp_background.png",
+			"theme_ntp_text": "images/googlelogo.png"
 		},
 		"colors": {
 			"frame": [32, 33, 36],
@@ -20,7 +21,7 @@
 			"frame_incognito": [32, 33, 36],
 			"frame_incognito_inactive": [60, 64, 67],
 			"toolbar": [50, 54, 57],
-			"tab_text": [241, 243, 244],
+			"tab_text": [255, 255, 255],
 			"tab_background_text": [154, 160, 166],
 			"bookmark_text": [241, 243, 244],
 			"ntp_background": [50, 54, 57],
@@ -30,7 +31,7 @@
 			"buttons": [-1, -1, 0.96]
 		},
 		"properties": {
-			"ntp_logo_alternate": 1,
+			"ntp_logo_alternate": 2,
 			"ntp_background_repeat": "repeat"
 		}
 	}
